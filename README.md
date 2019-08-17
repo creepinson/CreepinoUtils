@@ -9,8 +9,8 @@ Head to
 https://creepinson.github.io/docs/creepinoutils/
 for javadoc documentation on using CreepinoUtils in your plugin.
 ### Maven Installation
-Install using Maven like so:
-In your pom.xml:
+Install using Maven by
+adding the following code to your project's pom.xml file.
 ```xml
 <repositories>
     <repository>
@@ -32,7 +32,7 @@ You can add these lines and replace the username and password with your own, and
 the Base64 Encoded version of 'username:password' in that format.
 You can encode your username and password in the format above using https://www.base64encode.org/.
 Add the following to your settings.xml in the <servers> section.
-```
+```xml
 <server>
   <id>github</id>
   <username>USERNAME</username>

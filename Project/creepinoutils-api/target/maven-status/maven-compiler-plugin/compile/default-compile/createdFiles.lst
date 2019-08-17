@@ -1,4 +1,3 @@
-me\creepinson\utils\ChatUtils.class
 me\creepinson\utils\RomanNumberUtils.class
 me\creepinson\utils\GraphicalUtils$AnvilClickEvent.class
 com\ezetech\util\FileFindHandler.class
@@ -19,4 +18,5 @@ com\ezetech\util\JavaClassFileFilter.class
 com\ezetech\util\JavaClassFileWalker.class
 me\creepinson\utils\GraphicalUtils$AnvilClickEventHandler.class
 com\ezetech\util\ExtensionMatchFileFilter.class
+me\creepinson\utils\TextUtils.class
 me\creepinson\utils\PluginModule.class

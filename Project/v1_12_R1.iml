@@ -22,6 +22,6 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: net.md-5:bungeecord-chat:1.12-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.bukkit:bukkit:1.12.2-R0.1-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.bukkit:craftbukkit:1.12.2-R0.1-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: me.me.creepinson.creepinson:creepinoutils-api:API" level="project" />
+    <orderEntry type="module" module-name="creepinoutils-api" />
   </component>
 </module>

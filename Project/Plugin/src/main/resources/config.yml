@@ -1,0 +1,11 @@
+
+# -- UTILS -- 
+announcer-enabled: false
+# YOU CAN USE COLORS CODES USING THE & SYMBOL!
+announcer-message: '&fHave a nice day on our server!'
+
+#Prefix before announcement (ex. [Announcer])
+announcer-prefix: '&7[&a&lAnnouncerR&7]'
+
+# Interval to Announce - Default: 30 Seconds
+announcer-interval: 60

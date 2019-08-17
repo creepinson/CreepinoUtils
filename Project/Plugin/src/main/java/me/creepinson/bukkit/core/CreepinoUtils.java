@@ -1,7 +1,10 @@
 package me.creepinson.bukkit.core;
 
 import me.creepinson.utils.PluginModule;
+import me.creepinson.utils.TextUtils;
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
+import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -18,7 +21,7 @@ import java.util.List;
 import java.util.logging.Logger;
 
 public class CreepinoUtils extends JavaPlugin {
-    public static CreepinoUtils plugin;
+    private static CreepinoUtils plugin;
     private static List<PluginModule> modules;
 
     @Override
@@ -30,12 +33,54 @@ public class CreepinoUtils extends JavaPlugin {
 		}
     }
 
+    public static CreepinoUtils getInstance(){
+        return plugin;
+    }
+
+
+    @Override
+    public YamlConfiguration getConfig() {
+        return config;
+    }
+
+    public File getConfigFile() {
+        return cfile;
+    }
+
+    private YamlConfiguration config;
+    private File cfile;
+
     @Override
     public void onEnable() {
 
-        PluginDescriptionFile pdfFile = this.getDescription();
-
         plugin = this;
+
+        PluginDescriptionFile pdfFile = this.getDescription();
+        this.config = new YamlConfiguration();
+        this.getConfig().options().copyDefaults(true);
+        saveDefaultConfig();
+        this.cfile = new File(getDataFolder(), "config.yml");
+        if(this.cfile.exists()){
+            this.config = YamlConfiguration.loadConfiguration(this.cfile);
+        }
+        this.getCommand("announce").setExecutor(new CommandAnnounce());
+
+        try {
+            if (this.getConfig().getBoolean("announcer-enabled")) {
+                Bukkit.getServer().getScheduler().scheduleSyncRepeatingTask(this, new Runnable() {
+
+                    public void run() {
+
+                        Bukkit.getServer()
+                                .broadcastMessage(TextUtils.withColor(CreepinoUtils.this.getConfig().getString("announcer-prefix")
+                                        + " " + CreepinoUtils.this.getConfig().getString("announcer-message")));
+
+                    }
+                }, 0L, getConfig().getInt("announcer-interval") * 20);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         for (PluginModule m : getAllPluginModules()) {
 			m.onEnable();
         }
