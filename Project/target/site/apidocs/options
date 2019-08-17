@@ -1,0 +1,24 @@
+-classpath
+'E:/MeepzPlugins/CreepinoUtils/Project/target/classes;E:/MeepzPlugins/CreepinoUtils/Project/creepinoutils-api/target/classes;E:/MeepzPlugins/CreepinoUtils/Project/v1_12_R1/target/classes;E:/MeepzPlugins/CreepinoUtils/Project/v1_14_R1/target/classes;E:/MeepzPlugins/CreepinoUtils/export/classes;C:/Users/thebo/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar;C:/Users/thebo/.m2/repository/org/bukkit/craftbukkit/1.14.4-R0.1-SNAPSHOT/craftbukkit-1.14.4-R0.1-SNAPSHOT.jar;C:/Users/thebo/.m2/repository/org/bukkit/bukkit/1.14.4-R0.1-SNAPSHOT/bukkit-1.14.4-R0.1-SNAPSHOT.jar;C:/Users/thebo/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar;C:/Users/thebo/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar;C:/Users/thebo/.m2/repository/net/md-5/bungeecord-chat/1.13-SNAPSHOT/bungeecord-chat-1.13-SNAPSHOT.jar;C:/Users/thebo/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar;C:/Users/thebo/.m2/repository/me/me/creepinson/creepinson/creepinoutils-api/API/creepinoutils-api-API.jar;C:/Users/thebo/.m2/repository/me/me/creepinson/creepinson/v1_12_R1/v1_12_R1/v1_12_R1-v1_12_R1.jar;C:/Users/thebo/.m2/repository/me/me/creepinson/creepinson/v1_14_R1/v1_14_R1/v1_14_R1-v1_14_R1.jar;C:/Users/thebo/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar;C:/Users/thebo/.m2/repository/junit/junit/4.10/junit-4.10.jar;C:/Users/thebo/.m2/repository/org/spigotmc/spigot-api/1.14.4-R0.1-SNAPSHOT/spigot-api-1.14.4-R0.1-SNAPSHOT.jar;C:/Users/thebo/.m2/repository/com/google/guava/guava/21.0/guava-21.0.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'E:/MeepzPlugins/CreepinoUtils/Project/creepinoutils-api/src/main/java;E:/MeepzPlugins/CreepinoUtils/Project/v1_12_R1/src/main/java;E:/MeepzPlugins/CreepinoUtils/Project/v1_14_R1/src/main/java;E:/MeepzPlugins/CreepinoUtils/Project/Plugin/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2019. All Rights Reserved.'
+-charset
+'UTF-8'
+-d
+'E:/MeepzPlugins/CreepinoUtils/Project/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'CreepinoUtils Parent parent API'
+-linkoffline
+'http://download.oracle.com/javase/7/docs/api' 'E:/MeepzPlugins/CreepinoUtils/Project/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'CreepinoUtils Parent parent API'

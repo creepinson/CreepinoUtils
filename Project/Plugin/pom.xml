@@ -65,7 +65,7 @@
     </dependencies>
 
     <build>
-        <directory>../target</directory> <!-- Build it one level up, because it is the one we care about -->
+        <directory>../../export</directory> <!-- Build it one level up, because it is the one we care about -->
         <finalName>CreepinoUtils</finalName>
         <!-- Define filtering for the inclusion of plugin.yml, so we can utilize the pom.xml version in it -->
         <resources>
@@ -100,24 +100,7 @@
                     <target>8</target>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-javadoc-plugin</artifactId>
-                <version>2.7</version>
-                <executions>
-                    <execution>
-                        <id>attach-javadoc</id>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>javadoc</goal>
-                        </goals>
-                        <configuration>
-                            <additionalparam>${javadoc.opts}</additionalparam>
-                            <reportOutputDirectory>${project.build.directory}/classes/</reportOutputDirectory>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
+
         </plugins>
     </build>
 </project>

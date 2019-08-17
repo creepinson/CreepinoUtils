@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="MavenCustomPomFilePath">
+    <option name="mavenPomFileUrl" value="file://$MODULE_DIR$/Plugin/dependency-reduced-pom.xml" />
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../export/classes" />
+    <output-test url="file://$MODULE_DIR$/../export/test-classes" />
+    <content url="file://$MODULE_DIR$/Plugin/src/main/java">
+      <sourceFolder url="file://$MODULE_DIR$/Plugin/src/main/java" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/Plugin/src/main/resources">
+      <sourceFolder url="file://$MODULE_DIR$/Plugin/src/main/resources" type="java-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/Plugin/src/test/java">
+      <sourceFolder url="file://$MODULE_DIR$/Plugin/src/test/java" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.spigotmc:spigot-api:1.14.4-R0.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.bukkit:craftbukkit:1.14.4-R0.1-SNAPSHOT" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$PLUGINDEPEND$/CreepinoUtils.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

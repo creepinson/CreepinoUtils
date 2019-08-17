@@ -18,7 +18,6 @@ import java.util.List;
 import java.util.logging.Logger;
 
 public class CreepinoUtils extends JavaPlugin {
-    public final Logger logger = Logger.getLogger("CreepinoUtils");
     public static CreepinoUtils plugin;
     private static List<PluginModule> modules;
 
@@ -78,31 +77,6 @@ public class CreepinoUtils extends JavaPlugin {
         }
 
         return list;
-    }
-
-    public static File downloadFile(File inPath, String inURL) {
-        URL url;
-        URLConnection con;
-        DataInputStream dis;
-        FileOutputStream fos;
-        byte[] fileData;
-        try {
-            url = new URL(inURL); // File Location goes here
-            con = url.openConnection(); // open the url connection.
-            dis = new DataInputStream(con.getInputStream());
-            fileData = new byte[con.getContentLength()];
-            for (int q = 0; q < fileData.length; q++) {
-                fileData[q] = dis.readByte();
-            }
-            dis.close(); // close the data input stream
-            fos = new FileOutputStream(inPath); // FILE Save Location goes
-            // here
-            fos.write(fileData); // write out the file we want to save.
-            fos.close(); // close the output stream writer
-        } catch (Exception m) {
-            System.out.println(m);
-        }
-        return inPath;
     }
 
 }

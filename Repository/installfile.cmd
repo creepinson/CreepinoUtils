@@ -1,0 +1,2 @@
+mvn install:install-file -DgroupId="me.creepinson" -DartifactId="creepinoutils" -Dversion="1.0.0" -Dfile="../export/CreepinoUtils.jar" -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath="."  -DcreateChecksum=true
+PAUSE
