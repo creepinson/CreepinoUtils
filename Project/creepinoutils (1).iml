@@ -17,8 +17,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.spigotmc:spigot-api:1.14.4-R0.1-SNAPSHOT" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.bukkit:craftbukkit:1.14.4-R0.1-SNAPSHOT" level="project" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -28,5 +26,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.spigotmc:spigot-api:1.14.4-R0.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.bukkit:craftbukkit:1.14.4-R0.1-SNAPSHOT" level="project" />
   </component>
 </module>
