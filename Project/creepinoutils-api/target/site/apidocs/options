@@ -1,0 +1,24 @@
+-classpath
+'E:/MeepzPlugins/CreepinoUtils/creepinoutils-api/target/classes;C:/Users/thebo/.m2/repository/org/bukkit/craftbukkit/1.14.4-R0.1-SNAPSHOT/craftbukkit-1.14.4-R0.1-SNAPSHOT.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'E:/MeepzPlugins/CreepinoUtils/creepinoutils-api/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2019. All Rights Reserved.'
+-charset
+'UTF-8'
+-d
+'E:/MeepzPlugins/CreepinoUtils/creepinoutils-api/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'CreepinoUtils API API API'
+-link
+'http://java.sun.com/javase/6/docs/api'
+-use
+-version
+-windowtitle
+'CreepinoUtils API API API'
