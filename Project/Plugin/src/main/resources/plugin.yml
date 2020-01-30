@@ -1,0 +1,7 @@
+name: CreepinoUtilities
+main: me.creepinson.bukkit.core.CreepinoUtils
+version: 1.0.0
+description: A utility plugin made by Creepinson specifically for the Goofin Network..
+commands:
+  announce:
+    description: Broadcast/announce a message with an optional prefix.

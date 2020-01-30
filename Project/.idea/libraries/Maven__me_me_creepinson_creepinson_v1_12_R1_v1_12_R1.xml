@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Maven: me.me.creepinson.creepinson:v1_12_R1:v1_12_R1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/me/me/creepinson/creepinson/v1_12_R1/v1_12_R1/v1_12_R1-v1_12_R1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/v1_12_R1/v1_12_R1-v1_12_R1-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/me/me/creepinson/creepinson/v1_12_R1/v1_12_R1/v1_12_R1-v1_12_R1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/v1_12_R1/v1_12_R1-v1_12_R1-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/me/me/creepinson/creepinson/v1_12_R1/v1_12_R1/v1_12_R1-v1_12_R1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
