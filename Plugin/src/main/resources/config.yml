@@ -1,0 +1,19 @@
+# -- Creepino Utilities --
+announcer-enabled: false
+# YOU CAN USE COLORS CODES USING THE & SYMBOL!
+announcer-message: '&fHave a nice day on our server!'
+
+#Prefix before announcement (ex. [Announcer])
+announcer-prefix: '&7[&a&lAnnouncerR&7]'
+
+# Interval to Announce - Default: 30 Seconds
+announcer-interval: 60
+
+# Database Credentials (do not share!)
+database:
+  driver: "com.mysql.jdbc.Driver"
+  dialect: "org.hibernate.dialect.MySQLDialect"
+  host: "localhost:3306"
+  name: "minecraft"
+  user: "root"
+  password: "password"
