@@ -1,4 +1,9 @@
-Project/bin
-Project/.settings
+*.iml
+target
+build
 export
-Project/target
+out
+.idea
+.gradle
+.classpath
+.project

@@ -1,0 +1,11 @@
+name: CreepinoUtilities
+main: dev.throwouterror.bukkit.core.CreepinoUtils
+version: 1.0.0
+description: A utility plugin made by Creepinson specifically for the Goofin Network..
+commands:
+  announce:
+    description: Broadcast/announce a message with an optional prefix.
+permissions:
+  creepinoutils.admin.announce:
+    description: allows players with this permission to configure events completely (create, start, stop, etc.)
+    default: op
